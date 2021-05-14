@@ -6,6 +6,10 @@
 //  Copyright © 2021 Gavin Nesmith. All rights reserved.
 //
 
+//sampleapp  from class
+//Iphone 11++ only
+
+
 import UIKit
 
 @UIApplicationMain

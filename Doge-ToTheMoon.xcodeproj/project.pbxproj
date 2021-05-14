@@ -13,10 +13,11 @@
 		92DDA0C2264E221200C71719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DDA0C0264E221200C71719 /* Main.storyboard */; };
 		92DDA0C4264E221400C71719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DDA0C3264E221400C71719 /* Assets.xcassets */; };
 		92DDA0C7264E221400C71719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DDA0C5264E221400C71719 /* LaunchScreen.storyboard */; };
+		92DDA0CF264E234800C71719 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92DDA0CE264E234800C71719 /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		92DDA0B7264E221200C71719 /* Doge-ToTheMoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doge-ToTheMoon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DDA0B7264E221200C71719 /* Where Doge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Where Doge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DDA0BA264E221200C71719 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92DDA0BC264E221200C71719 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		92DDA0BE264E221200C71719 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		92DDA0C3264E221400C71719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92DDA0C6264E221400C71719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92DDA0C8264E221400C71719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DDA0CE264E234800C71719 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		92DDA0B8264E221200C71719 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92DDA0B7264E221200C71719 /* Doge-ToTheMoon.app */,
+				92DDA0B7264E221200C71719 /* Where Doge.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +58,7 @@
 		92DDA0B9264E221200C71719 /* Doge-ToTheMoon */ = {
 			isa = PBXGroup;
 			children = (
+				92DDA0CE264E234800C71719 /* hustle-on.wav */,
 				92DDA0BA264E221200C71719 /* AppDelegate.swift */,
 				92DDA0BC264E221200C71719 /* SceneDelegate.swift */,
 				92DDA0BE264E221200C71719 /* ViewController.swift */,
@@ -84,7 +87,7 @@
 			);
 			name = "Doge-ToTheMoon";
 			productName = "Doge-ToTheMoon";
-			productReference = 92DDA0B7264E221200C71719 /* Doge-ToTheMoon.app */;
+			productReference = 92DDA0B7264E221200C71719 /* Where Doge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92DDA0CF264E234800C71719 /* hustle-on.wav in Resources */,
 				92DDA0C7264E221400C71719 /* LaunchScreen.storyboard in Resources */,
 				92DDA0C4264E221400C71719 /* Assets.xcassets in Resources */,
 				92DDA0C2264E221200C71719 /* Main.storyboard in Resources */,
@@ -291,7 +295,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gavinnesmith.Doge-ToTheMoon";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Where Doge";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gavinnesmith.Doge-ToTheMoon";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Where Doge";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
